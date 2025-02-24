@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~4kxWHbQB#78NDLOquy6cyL-onMNUJF2hZ6Vg_C_iAGQLL4DHxUSA",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~c8JjTTwa#MggI63y97ru7PB8TQZnnCRU_gxmWsS0E6waQklUl1Ns",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
 
-BOT_NAME: process.env.BOT_NAME || "----/ 𝑫𝑬𝑽𝑰𝑳 😈 \---- xᴅ v2",
+BOT_NAME: process.env.BOT_NAME || "Devil😈 xᴅ v2",
 // add bot name here for menu
 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
@@ -62,10 +62,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto react on status (still testing)
 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "☠️ SEEN YOUR STATUS JUST NOW
-----/ BY \----
-----/ 𝑫𝑬𝑽𝑰𝑳 😈 \----
-AP BI MARA STATUS SEEN KAR LO👿*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "PAN YAKO STATUS SEEN KARO☠️",
 // set the auto reply massage on status reply    
 
 MODE: process.env.MODE || "public",
